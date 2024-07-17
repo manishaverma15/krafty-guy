@@ -71,7 +71,7 @@ const Reviews = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex === reviews.length - 1 ? 0 : prevIndex + 1));
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [reviews.length]);
