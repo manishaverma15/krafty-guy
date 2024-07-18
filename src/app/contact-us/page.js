@@ -32,11 +32,17 @@ const ContactUs = () => {
                 <textarea name="message" id="message" rows="4" placeholder="Leave a comment..." className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
               </div>
               <div>
-                <button type="submit" className="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Send</button>
+                <p className="text-gray-400 text-sm">
+                  By submitting this form you agree to our <a className="text-sm text-blue-500"> terms and conditions </a>
+                  and our <a className="text-sm text-blue-500"> privacy policy </a> which explains how we may collect, use and disclose your personal information including to third parties.
+                </p>
+              </div>
+              <div>
+                <button type="submit" className="min-w-150 block py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Send</button>
               </div>
             </form>
           </div>
-          <div className="space-y-20 mt-15">
+          <div className="space-y-20">
             <div className="flex items-center space-x-6">
               <div className="flex-shrink-0">
                 <svg className="h-8 w-8 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
