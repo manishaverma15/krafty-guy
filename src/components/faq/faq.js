@@ -12,7 +12,7 @@ const FAQ = () => {
   return (
     <section className="bg-white dark:bg-gray-900 py-12">
       <div className="max-w-screen-xl mx-auto px-4">
-        <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-8">Frequently Asked Questions</h2>
+        <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-8 text-center">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqData.map((item) => (
             <div key={item.id}>
