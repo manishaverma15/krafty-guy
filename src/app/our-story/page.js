@@ -6,7 +6,7 @@ const OurStory = () => {
       <section class="bg-white dark:bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">A Journey of Creativity and Self-Discovery</h2>
             <p class="mb-4">Decades ago, as a little boy.. growing up in Karnal I started my tryst with this beautiful life.
               Born and brought up in a family that is a curious combination of modern and traditional values. These people are my  biggest support for the very fact that they always let me follow my heart's content.
               Looking back to my life and it's adolescent years, the most important thing I realize was my curiosity to know every little detail about the toys I had. I just love creating something out of nothing and that's where I realized choosing a career into creativity is something I exactly fit in.</p>
