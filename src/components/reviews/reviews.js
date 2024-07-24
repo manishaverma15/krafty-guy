@@ -85,7 +85,7 @@ const Reviews = () => {
   };
 
   return (
-    <div id="animation-carousel" className="relative w-full">
+    <div id="animation-carousel" className="relative w-full mb-10">
       <div className="relative overflow-hidden rounded-lg">
         <div
           className="flex transition-transform duration-700 ease-in-out"

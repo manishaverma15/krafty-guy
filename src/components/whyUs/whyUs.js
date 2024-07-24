@@ -3,7 +3,7 @@ import React from "react";
 const WhyUs = () => {
   return (
     <>
-      <div className="bg-white dark:bg-gray-800 py-12">
+      <div className="bg-white dark:bg-gray-800 py-12 mb-10">
         <div className="max-w-screen-xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Why Flowbite Shop?</h2>
           <p className="text-gray dark:text-gray" style={{ fontSize: '1.25rem' }}>
