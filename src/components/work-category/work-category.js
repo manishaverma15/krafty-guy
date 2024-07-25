@@ -4,10 +4,10 @@ import React from 'react';
 import Link from 'next/link';
 
 const categories = [
-  { name: 'Lighted Nameplates', image: '/images/lighted-name-plate.jpg', link: '/category/lighted-nameplates' },
-  { name: 'Non-Lighted Nameplates', image: '/images/non-lighted-nameplate.jpg', link: '/category/non-lighted-nameplates' },
-  { name: 'Neon Signs', image: '/images/neon-signs.jpg', link: '/category/neon-signs' },
-  { name: 'Pillar/Gate Lamps', image: '/images/pillar-gate-lamps.png', link: '/category/pillar-gate-lamps' },
+  { name: 'Lighted Nameplates', image: '/images/work/lighted-name-plate.jpg', link: '/category/lighted-nameplates' },
+  { name: 'Non-Lighted Nameplates', image: '/images/work/non-lighted-nameplate.jpg', link: '/category/non-lighted-nameplates' },
+  { name: 'Neon Signs', image: '/images/work/neon-signs.jpg', link: '/category/neon-signs' },
+  { name: 'Pillar/Gate Lamps', image: '/images/work/pillar-gate-lamps.png', link: '/category/pillar-gate-lamps' },
 ];
 
 const Category = () => {

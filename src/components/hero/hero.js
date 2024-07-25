@@ -1,4 +1,5 @@
 import React from "react";
+import ImagesCarousel from "../hero-carousel/hero-carousel";
 
 const HeroSection = () => {
   return (
@@ -17,7 +18,7 @@ const HeroSection = () => {
             </a>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="/images/beautiful-home.jpg" alt="mockup" className="rounded" />
+            <ImagesCarousel />
           </div>
         </div>
       </section>
