@@ -16,16 +16,16 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <label htmlFor="last-name" className="block text-sm font-medium text-gray-700">Last Name</label>
-                  <input type="text" name="last-name" id="last-name" placeholder="Green" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                  <input type="text" name="last-name" id="last-name" placeholder="Gill" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
                 </div>
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700">Your email</label>
-                <input type="email" name="email" id="email" placeholder="name@flowbite.com" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                <input type="email" name="email" id="email" placeholder="name@gmail.com" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
               </div>
               <div>
                 <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Phone Number</label>
-                <input type="tel" name="phone" id="phone" placeholder="+12 345 6789" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                <input type="tel" name="phone" id="phone" placeholder="+91 345 6789" className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700">Your message</label>
@@ -51,8 +51,8 @@ const ContactUs = () => {
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900 mb-3">Company information:</h3>
-                <p className="text-sm text-gray-500">Themesberg LLC</p>
-                <p className="text-sm text-gray-500">Tax id: USXXXXXX</p>
+                <p className="text-sm text-gray-500">Krafty Guy</p>
+                {/* <p className="text-sm text-gray-500">Tax id: USXXXXXX</p> */}
               </div>
             </div>
             <div className="flex items-center space-x-6">
@@ -63,8 +63,8 @@ const ContactUs = () => {
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900 mb-3">Address:</h3>
-                <p className="text-sm text-gray-500">SILVER LAKE, United States 1941 Late Avenue</p>
-                <p className="text-sm text-gray-500">Zip Code/Postal code: 03875</p>
+                <p className="text-sm text-gray-500"> DSS-104, BLOCK F, MOHALI CITI CENTRE, Gmada Aerocity, Mohali, Punjab</p>
+                <p className="text-sm text-gray-500">Zip Code/Postal code: 140306</p>
               </div>
             </div>
             <div className="flex items-center space-x-6">
@@ -76,7 +76,7 @@ const ContactUs = () => {
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900 mb-3">Call us:</h3>
                 <p className="text-sm text-gray-500">Call us to speak to a member of our team. We are always happy to help.</p>
-                <p className="text-sm text-blue-500">+91 7027860053</p>
+                <p className="text-sm text-blue-500">+91- 702 786 0053</p>
               </div>
             </div>
           </div>
