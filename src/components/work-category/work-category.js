@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { categories } from '@/constants/work-categories';
+import { categories } from '@app/constants/work-categories';
 
 const Category = () => {
   return (

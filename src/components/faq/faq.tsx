@@ -1,11 +1,17 @@
 "use client";
 import { useState } from 'react';
-import { faqData } from '@/constants/faq-data';
+import { faqData } from '../../constants/faq-data';
+
+export interface FaqItem {
+  id: number;
+  question: string;
+  answer: string;
+}
 
 const FAQ = () => {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState<number | null>(null);
 
-  const toggleAnswer = (id) => {
+  const toggleAnswer = (id: number) => {
     setSelected(selected === id ? null : id);
   };
 
@@ -16,7 +22,7 @@ const FAQ = () => {
           Frequently Asked Questions
         </h2>
         <div className="space-y-4">
-          {faqData.map((item) => (
+          {faqData.map((item: FaqItem) => (
             <div key={item.id}>
               <button
                 onClick={() => toggleAnswer(item.id)}

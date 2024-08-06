@@ -1,0 +1,16 @@
+<svg width="400" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <style>
+    .text { font-family: Arial, sans-serif; fill: #000000; }
+    .large { font-size: 48px; }
+    .tree { fill: #b0b0b0; opacity: 0.5; }
+    .stars { fill: #ffd700; }
+  </style>
+  <rect width="100%" height="100%" fill="#d3d3d3"/>
+  <path class="tree" d="M200 130 c-15 0 -28 -6 -38 -16 -10 -10 -16 -23 -16 -38 0 -20 5 -26 20 -28 12 -2 25 5 31 15 6 9 15 14 19 11 9 -6 19 -25 19 -40 0 -7 -11 -24 -25 -38 -14 -14 -25 -28 -25 -32 0 -5 10 -5 23 0 22 8 23 11 16 54 -6 35 -4 45 10 53 22 11 30 35 20 64 -10 29 -33 41 -54 35z"/>
+  <circle class="stars" cx="170" cy="50" r="3"/>
+  <circle class="stars" cx="230" cy="50" r="3"/>
+  <circle class="stars" cx="200" cy="20" r="3"/>
+  <circle class="stars" cx="180" cy="70" r="3"/>
+  <circle class="stars" cx="220" cy="70" r="3"/>
+  <text x="50%" y="65%" text-anchor="middle" class="text large">Krafty Guy</text>
+</svg>

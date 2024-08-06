@@ -1,5 +1,6 @@
+import { FaqItem } from "../../components/faq/faq";
 
-export const faqData = [
+export const faqData: FaqItem[] = [
   {
     id: 1,
     question: "How do I place an order on KraftyGuy?",
