@@ -71,7 +71,7 @@ const Reviews = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex === reviews.length - 1 ? 0 : prevIndex + 1));
-    }, 3000);
+    }, 30000);
 
     return () => clearInterval(interval);
   }, [reviews.length]);
@@ -85,7 +85,7 @@ const Reviews = () => {
   };
 
   return (
-    <div id="animation-carousel" className="relative w-full mb-10">
+    <div id="animation-carousel" className="relative w-full mb-10 mx-auto">
       <div className="relative overflow-hidden rounded-lg">
         <div
           className="flex transition-transform duration-700 ease-in-out"
@@ -94,7 +94,7 @@ const Reviews = () => {
           {reviews.map((reviewSet, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-3 gap-4 p-4 ml-auto mr-auto"
+              className="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-3 gap-4 p-4"
             >
               {reviewSet.map((review, reviewIndex) => (
                 <div key={reviewIndex} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 mb-7"
